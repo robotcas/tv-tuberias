@@ -19,11 +19,11 @@ Version: 1.0
     --main-color: #eac800;
     --el-gradient1: #eac800;
     --el-gradient2: #eac800;
-    --primary-color: #ffffff;
-    --primary-bg-color: #F0F4F8;
-    --text-primary: #000000;
+    --primary-color: #0000;
+    --primary-bg-color: #3a3a3a;
+    --text-primary: #ffff;
     --text-primary1: #72727272;
-    --text-secondary: #72727272;
+    --text-secondary: #ffff;
     --border-color: #D4D4E1;
     --placeholder-color: #72727272;
     --error-color: #eac800;
@@ -1025,8 +1025,8 @@ select {
     padding: calc(0.75em - 1px) 1rem;
     margin-bottom: 1rem;
     border-radius: var(--el-border-radius-min);
-    border: 1px solid var(--border-color);
-    background-color: transparent;
+    border: 1px solid #3a3a3a;
+    background-color: #3a3a3a;
     outline: none;
     color: var(--text-primary);
     box-shadow: none;
@@ -1596,7 +1596,7 @@ textarea {
 }
 
 .iitem-desc {
-    color: var(--text-secondary);
+    color: #ffff;
     transition: color 0.2s;
 }
 
@@ -3351,7 +3351,7 @@ body.mmm-open .mmm {
 
 .section-bg,
 .section-bgc {
-    background-color: var(--primary-bg-color);
+    background-color:#3a3a3a;
 }
 
 .section-dark {
@@ -3452,7 +3452,7 @@ body.mmm-open .mmm {
 
 .item-style {
     position: relative;
-    background-color: var(--primary-color);
+    background-color: #3a3a3a;
     border-radius: var(--el-border-radius);
     overflow: hidden;
     color: var(--text-primary);
